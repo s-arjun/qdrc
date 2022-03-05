@@ -13,8 +13,56 @@
     <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
-
+<style>
+    body {
+      margin: 1;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      position: static;
+      /* overflow: hidden; */
+      text-align:center;
+      font-size: 30px;
+      /* font-size: 1px; */
+      /* padding: 1px 1px; */
+      /* position: absolute;
+      left: 100px;
+      top: 150px; */
+      /* background-color: #333; */
+    }
+    
+    /* .topnav a {
+      float: none;
+      color: #000000;
+      text-align: center;
+      padding: 1px 1px;
+      text-decoration: none;
+      font-size: 30px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      /* color: black; */
+    /* } */
+    
+    /* .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    } */ */
+    h1 { 
+     display: block;
+     font-size: 6em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+     margin-left: 0;
+     margin-right: 0;
+     font-weight: bold;
+}
+    </style>
+    
     <body>
+    
 
     <!-- ################# Header Starts Here#######################--->
     <header>
@@ -22,29 +70,27 @@
         <div id="nav-head" class="header-nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md-3 no-padding col-sm-12 nav-img">
-                        <img src="assets/images/logo.png" alt="">
-                       <a data-toggle="collapse" data-target="#menu" href="#menu" ><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    <div class="logo">
+                        <img src="assets/images/logo-cropped.png" class="w3-circle"  width="60" height="60"/>
+                        
                     </div>
-                    <div id="menu" class="col-lg-8 col-md-9 d-none d-md-block nav-item">
-                        <ul>
+                    
+                        <h1 style="color:rgb(24, 22, 22);">  QDRC </h1>
+                    <div id="menu" class="col-lg-8 col-md-9 d-none d-md-block nav-item" >
+                        <ul >
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#services">Services</a></li>
-                            <li><a href="#blog">Blog</a></li>  
                             <li><a href="#gallery">Gallery</a></li>
                             <li><a href="#contact">Contact Us</a></li>
                         </ul>
-                    </div>
-                    <div class="col-sm-2 d-none d-lg-block appoint">
-                        <button class="btn btn-info">Book an Appointment</button>
-                    </div>
+                    
                 </div>
 
             </div>
         </div>
     </header>
-    
+
     
      <!-- ################# Slider Starts Here#######################--->
 
@@ -71,6 +117,10 @@
                     <img class="d-block w-100" src="assets/images/slider/slider_2.jpg" alt="Third slide">
                      
                 </div>
+                <div class="carousel-item ">
+                    <img class="d-block w-100" src="assets/images/slider/slider_7.jpg" alt="Third slide">
+                     
+                </div>
                 
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -92,14 +142,14 @@
                 <div class="col-lg-4 kvxol col-md-6">
                     <div class="single-key ky-1">
                        <div class="icon">
-                            <i class="fas fa-tooth"></i>
+                            <i class="fas fa-microscope"></i>
                        </div>
                        <div class="detail">
-                           <h5>Newest Technologies</h5>
-                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                           <h5>Available services </h5>
+                             <p>Covid RTPCR authorised collection center.  Approved by ICMR.  Quick results for RTPCR tests</p>
                        </div>
                        
-                        
+                       <!-- <i class="fa-duotone fa-microscope"></i> -->
                     </div>
                 </div>
 
@@ -109,8 +159,8 @@
                             <i class="fas fa-user-md"></i>
                         </div>
                         <div class="detail">
-                            <h5>Experianced Doctors</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                            <h5>Experienced Doctors</h5>
+                            <p>We have regular OP wing of doctors specialised in dermatology and surgeons. Advanced booking facilities for doctors are available .</p>
                         </div>
                     </div>
                 </div>
@@ -121,8 +171,8 @@
                             <i class="fas fa-briefcase-medical"></i>
                         </div>
                         <div class="detail">
-                             <h5>High Customer Satisfaction</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                             <h5>Customer Satisfaction</h5>
+                            <p>Quality and quick results are our mark . We have several satisfied customers and have made continuous collection agreemets with residance associations of villas and apartments for spot collection. </p>
                         </div>
                         
                        
@@ -141,14 +191,58 @@
         <div class="container">
             <div class="row">
                <div class="col-lg-6 col-md-12">
-                    <img src="assets/images/why.jpg" alt="">
+                    <img src="assets/images/pic1.jpg" alt="">
                 </div>
                 <div class="col-lg-6 col-md-12 txtr">
-                    <h4>Why choos Health Care with <br>
-                     <span>Medical Hospital</span>   
+                    <h2 style="color:blue;">Quick Diagnostic & Research Centre </h2>
+                    <!-- <h4>About US </h4> -->
+                        <p>We are a group of experienced medical proffesionals who are bound to give quality reports to patients. We  are equiped with world standard testing machines and regularity collabrated for sharp results. Service based on accuracy , reliaiablilty and timeliness. </p>
+                     
+                    <!-- <span> Our aim</span>  -->
                     </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer neque libero, pulvinar et elementum quis, facilisis eu ante. Mauris non placerat sapien. Pellentesque tempor arcu non odio scelerisque ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.</p>
-                    <p>Ut ultricies lacus a rutrum mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed porta dolor quis felis pulvinar dignissim. Etiam nisl ligula, ullamcorper non metus vitae, maximus efficitur mi. Vivamus ut ex ullamcorper, scelerisque lacus nec, commodo dui. Proin massa urna, volutpat vel augue eget, iaculis tristique dui. </p>
+
+                    <!-- <p>Provide quality lab results to patients in minimum time . We interpret the results of each patient with caution . </p> -->
+                    <div class="speciality_bottom">
+                        <h5 style="color:rgb(64, 64, 170);">Specialities</h5>
+                        <div class="col-md-6 col-sm-6 col-xs-12 p-l-0">
+                            <div class="speciality_inner">
+                                <div class="speciality_inner_left"><i class="fa fa-plus special_icon"> Biochemistry</i></div>
+                                <!-- <div class="speciality_inner_right">Biochemistry</div> -->
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="speciality_inner">
+                                <div class="speciality_inner_left"><i class="fa fa-plus special_icon" aria-hidden="true"> Hematology</i></div>
+                                <!-- <div class="speciality_inner_right">Hematology</div> -->
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="speciality_inner">
+                                <div class="speciality_inner_left"><i class="fa fa-plus special_icon" aria-hidden="true"> Clinical Pathology</i></div>
+                                <!-- <div class="speciality_inner_right">Clinical Pathology</div> -->
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="speciality_inner">
+                                <div class="speciality_inner_left"><i class="fa fa-plus special_icon" aria-hidden="true"> Virology</i></div>
+                                <!-- <div class="speciality_inner_right">Microbiology</div> -->
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="speciality_inner">
+                                <div class="speciality_inner_left"><i class="fa fa-plus special_icon" aria-hidden="true"> Serology</i></div>
+                                <!-- <div class="speciality_inner_right">Serology</div> -->
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>                
+                        <div class="col-md-6 col-sm-6 col-xs-12 p-l-0">
+                            <div class="speciality_inner">
+                                <div class="speciality_inner_left"><i class="fa fa-plus special_icon" aria-hidden="true"> Microbiology</i></div>
+                                <!-- <div class="speciality_inner_right">Bacteriology</div> -->
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="speciality_inner">
+                                <div class="speciality_inner_left"><i class="fa fa-plus special_icon" aria-hidden="true"> Cardiac markers</i></div>
+                                <!-- <div class="speciality_inner_right">Immunology</div> -->
+                            
+                        </div>                
+                    </div>
                 </div>
                 
             </div>
@@ -159,37 +253,7 @@
      <!-- ################# Clinic Number Starts Here#######################--->
 
 
-    <div class="doctor-message">
-        <div class="inner-lay">
-            <div class="container">
-               <div class="row session-title">
-                   <h2>Our Achievemtns in numbers</h2>
-                   <p>We can talk for a long time about advantages of our Dental clinic before other medical treatment facilities.
-But you can read the following facts in order to make sure of all pluses of our clinic:</p>
-               </div>
-                <div class="row">
-                    <div class="col-sm-3 numb">
-                        <h3>12+</h3>
-                        <span>YEARS OF EXPEREANCE</span>
-                    </div>
-                    <div class="col-sm-3 numb">
-                        <h3>212+</h3>
-                        <span>HAPPY PATIENTS</span>
-                    </div>
-                    <div class="col-sm-3 numb">
-                        <h3>52+</h3>
-                        <span>QUALIFIED STUFF</span>
-                    </div>
-                    <div class="col-sm-3 numb">
-                        <h3>18+</h3>
-                        <span>MASTER CERTIFICATIONS</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
+    
     
     <div id="services" class="services container-fluid">
        <div class="container">
@@ -197,102 +261,73 @@ But you can read the following facts in order to make sure of all pluses of our 
                 <div class="col-md-4 no-padding col-sm-6">
                     <div class="single-key b-b b-r">
                         <i class="fas fa-hospital-alt"></i>
-                        <h5>Newest Technologies</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                        <h5>Services </h5>
+                        <p>Lab test, Hospital booking, Lab queries, Home sample collection , Emergency calls. </p>
                     </div>
                 </div>
 
                 <div class="col-md-4 no-padding col-sm-6">
                     <div class="single-key b-b b-r">
                         <i class="fas fa-user-md"></i>
-                        <h5>Experianced Doctors</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                        <h5>Quality improvement programme </h5>
+                        <p>Quality and consistency is assured, throughout by measuring and monitoring instrument performance and key qualtiy metrics.</p>
                     </div>
                 </div>
 
                 <div class="col-md-4 no-padding col-sm-6">
                     <div class="single-key b-b">
                         <i class="fas fa-briefcase-medical"></i>
-                        <h5>High Customer Satisfaction</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                        <h5>Our aim </h5>
+                        <p>Provide quality lab results to patients in minimum time . We interpret the results of each patient with caution </p>
                     </div>
                 </div>
 
-                <div class="col-md-4 no-padding col-sm-6">
-                    <div class="single-key b-r">
-                        <i class="fas fa-capsules"></i>
-                        <h5>Pharma Pipeline</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 no-padding col-sm-6">
-                    <div class="single-key b-r">
-                        <i class="fas fa-prescription-bottle-alt"></i>
-                        <h5>Pharma Team</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
-                    </div>
-                </div>
+                
 
 
 
-                <div class="col-md-4 no-padding col-sm-6">
+                <!-- <div class="col-md-4 no-padding col-sm-6">
                     <div class="single-key">
                         <i class="far fa-thumbs-up"></i>
                         <h5>High Quality treatments</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
        </div>
     </div>
     
     
-    <!--  ************************* Gallery Starts Here ************************** -->
+     <!-- ************************* Gallery Starts Here ************************** -->
     <div id="gallery" class="gallery">
         <div class="container">
            <div class="session-title row">
                 <h2>Our Gallery</h2>
-                <p>Not the answer you're looking for? Printing and typesetting inLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s Lorem</p>
+                <!-- <p>Lab pictures </p> -->
             </div>
             <div class="row">
 
 
-                <div class="gallery-filter d-none d-sm-block">
-                    <button class="btn btn-default filter-button" data-filter="all">All</button>
-                    <button class="btn btn-default filter-button" data-filter="hdpe">Dental</button>
-                    <button class="btn btn-default filter-button" data-filter="sprinkle">Cardiology</button>
-                    <button class="btn btn-default filter-button" data-filter="spray"> Neurology</button>
-                    <button class="btn btn-default filter-button" data-filter="irrigation">Laboratry</button>
-                </div>
-                <br />
-
-
-
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                    <img src="assets/images/gallery/gallery_01.jpg" class="img-responsive">
+                    <img src="assets/images/gallery/pic1.jpeg" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                    <img src="assets/images/gallery/gallery_02.jpg" class="img-responsive">
+                    <img src="assets/images/gallery/pic2.jpeg" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                    <img src="assets/images/gallery/gallery_03.jpg" class="img-responsive">
+                    <img src="assets/images/gallery/pic3.jpeg" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                    <img src="assets/images/gallery/gallery_04.jpg" class="img-responsive">
+                    <img src="assets/images/gallery/pic6.jpeg" class="img-responsive">
                 </div>
-
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                    <img src="assets/images/gallery/gallery_05.jpg" class="img-responsive">
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                    <img src="assets/images/gallery/pic7.jpeg" class="img-responsive">
                 </div>
-
-
-
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                    <img src="assets/images/gallery/gallery_06.jpg" class="img-responsive">
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                    <img src="assets/images/gallery/pic8.jpeg" class="img-responsive">
                 </div>
 
             </div>
@@ -307,7 +342,7 @@ But you can read the following facts in order to make sure of all pluses of our 
     <section id="contact" class="contact-us-single">
         <div class="row no-margin">
             <div class="col-sm-6 no-padding">
-                <iframe style="width:100%" src="https://www.google.com/maps/place/DDRC+SRL+Diagnostic+Services/@10.11261,76.3523185,15z/data=!4m5!3m4!1s0x0:0x9ae005d7ae722ada!8m2!3d10.1126102!4d76.352298" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe style="width:100%" src="https://www.google.com/maps/place/QDRC/@10.1146942,76.328453,17z/data=!3m1!4b1!4m5!3m4!1s0x3b080f51d3fffd1b:0x4fb7b0fca5f02881!8m2!3d10.1146942!4d76.3306417" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="col-sm-6 cop-ck">
                 <h2>Contact Form</h2>
@@ -345,32 +380,16 @@ But you can read the following facts in order to make sure of all pluses of our 
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <h2>About Us</h2>
-                    <p>
-                        Smart Eye is a leading provider of information technology, consulting, and business process services. Our dedicated employees offer strategic insights, technological expertise and industry experience.
-                    </p>
-                    <p>We focus on technologies that promise to reduce costs, streamline processes and speed time-to-market, Backed by our strong quality processes and rich experience managing global... </p>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <h2>Useful Links</h2>
-                    <ul class="list-unstyled link-list">
-                        <li><a ui-sref="about" href="#/about">About us</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="portfolio" href="#/portfolio">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="products" href="#/products">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="gallery" href="#/gallery">Gallery</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="contact" href="#/contact">Contact us</a><i class="fa fa-angle-right"></i></li>
-                    </ul>
-                </div>
+                
                 <div class="col-md-4 col-sm-12 map-img">
                     <h2>Contact Us</h2>
                     <address class="md-margin-bottom-40">
-                        BlueDart <br>
-                        Marthandam (K.K District) <br>
-                        Tamil Nadu, IND <br>
-                        Phone: +91 9159669599 <br>
-                        Email: <a href="mailto:info@anybiz.com" class="">info@bluedart.in</a><br>
-                        Web: <a href="smart-eye.html" class="">www.bluedart.in</a>
+                         <br>
+                        Vattolil PArambil Shopping Complex, East Kadungaloor, UC College P.O ,Aluva-683102 <br>
+                        Kerala, IND <br>
+                        Phone: +91 8891309128, 8891309129 <br>
+                        Email: <a href="mailto:qdrccohin@gmail.com" class="">qdrccohin@gmail.com</a><br>
+                        Web: <a href="index.html" class="">www.qdrckerala.com</a>
                     </address>
 
                 </div>
@@ -379,22 +398,7 @@ But you can read the following facts in order to make sure of all pluses of our 
         
 
     </footer>
-    <div class="copy">
-            <div class="container">
-                <a href="https://www.smarteyeapps.com/">2015 &copy; All Rights Reserved | Designed and Developed by Smarteyeapps</a>
-                
-                <span>
-                <a><i class="fab fa-github"></i></a>
-                <a><i class="fab fa-google-plus-g"></i></a>
-                <a><i class="fab fa-pinterest-p"></i></a>
-                <a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-facebook-f"></i></a>
-        </span>
-            </div>
-
-        </div>
     
-    </body>
 
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
