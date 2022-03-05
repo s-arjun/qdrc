@@ -268,7 +268,6 @@ header{
             img{
                 width: 200px;
                 padding: 0px;
-                margin-top: 21px;
                 @media screen and (max-width: 767px){
                     margin-top: 0px;
                     padding: 10px;
@@ -372,6 +371,7 @@ header{
             margin: auto;
         }
         .icon{
+            padding-top: 25px;
             padding: 10px;
         }
         i{
@@ -389,17 +389,11 @@ header{
         }
     }
     .ky-1{
-       
+        height: 145px;
         color: #444;
         margin-bottom: 0px;
         border-left: 1px solid #CCC;
         
-    }
-    .ky-2{
-       
-         color: #444;
-        margin-bottom: 0px;
-        border-left: 1px solid #CCC;
     }
 }
 .department{
@@ -415,7 +409,6 @@ header{
     @include big-padding();
     background-color: #FFF;
     .txtr{
-        padding: 10px;
         h4{
             font-size: 32px;
             span{
@@ -483,8 +476,8 @@ header{
         }
     }
     .map-img{
-        font-weight: 600;
-        font-size: 17px;
+        font-weight: 500;
+        font-size: 15px;
         padding-left: 20px;
     }
     address{
