@@ -1,11 +1,3 @@
-/* =======================================================================
-Template Name: Dil Hospital
-Author:  SmartEye Adminpanel
-Author URI: www.smarteyeapps.com
-Version: 1.0
-coder name:Prabin Raja
-Description: This Template is created for web template
-======================================================================= */
 /* ===================================== Import Less ================================== */
 @font-face {
   font-family: 'mouse-300';
@@ -231,7 +223,7 @@ header {
     header .header-nav .nav-img img {
       width: 200px;
       padding: 0px;
-      margin-top: 21px; }
+    }
       @media screen and (max-width: 767px) {
         header .header-nav .nav-img img {
           margin-top: 0px;
@@ -304,6 +296,7 @@ header {
       text-align: left;
       margin: auto; }
     .key-features .single-key .icon {
+      padding-top: 25px;
       padding: 10px; }
     .key-features .single-key i {
       background-color: #FFF;
@@ -315,13 +308,15 @@ header {
       font-family: "mouse-300", Arial, Helvetica, sans-serif;
       font-size: 15px; }
   .key-features .ky-1 {
+    height: 145px;
     color: #444;
     margin-bottom: 0px;
     border-left: 1px solid #CCC; }
-  .key-features .ky-2 {
-    color: #444;
-    margin-bottom: 0px;
-    border-left: 1px solid #CCC; }
+
+.special_icon{
+  padding-top: 7px;
+  margin-left: 7px;
+}
 
 .department {
   padding: 50px; }
@@ -338,12 +333,12 @@ header {
   @media screen and (max-width: 940px) {
     .with-medical {
       padding: 30px 10px; } }
-  .with-medical .txtr {
-    padding: 10px; }
     .with-medical .txtr h4 {
       font-size: 32px; }
-      .with-medical .txtr h4 span {
-        color: #506ecd; }
+    .with-medical .txtr h4 span {
+      color: #506ecd; }
+    .with-medical .txtr h5 span {
+      color: #506ecd; }
     .with-medical .txtr p {
       text-indent: 20px;
       font-size: 1.1rem; }
@@ -369,7 +364,26 @@ header {
         border-bottom: 1px solid #CCC;
         margin-bottom: 20px; }
 
-/* ===================================== Fooer CSS ================================== */
+/* ===================================== Google map CSS ================================== */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 760px;
+  height: 480px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none!important;
+  width: 760px;
+  height: 480px;
+}
+.gmap_iframe {
+  width: 760px!important;
+  height: 480px!important;
+}
+
+/* ===================================== Footer CSS ================================== */
 .footer {
   padding: 50px;
   padding-bottom: 0px;
@@ -392,11 +406,11 @@ header {
     .footer .link-list li i {
       float: right; }
   .footer .map-img {
-    font-weight: 600;
-    font-size: 17px;
+    font-weight: 500;
+    font-size: 15px;
     padding-left: 20px; }
   .footer address a {
-    color: #FFF; }
+    color: #7f9bf7; }
 
 .copy {
   padding: 20px;
